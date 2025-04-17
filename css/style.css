@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kozuka Gothic Pro", sans-serif;
+  background-color: #F3E9DA;
+  line-height: 1.6;
+  color: #271502;
+}
+
+header {
+  height: 740px;
+  background-color: #95C32D;
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-style: normal;
+  font-size: 51px;
+  font-weight: bold;
+}
+#kanban h1{
+  /* フォント太英字 */
+  /* .lalezar-regular  */
+  font-family: "Lalezar", system-ui;
+  font-weight: 500;
+  width: 100%;
+  height: 100;
+  text-align:justify;
+
+}
+h2 {
+    /* .lalezar-regular  */
+  font-family: "Lalezar", system-ui;
+
+  font-weight: bold;
+  color: #5C3919;
+}
+
+h2, h3, h4 {
+  font-weight: bold;
+  color: #5C3919;
+}
+
+section {
+  padding: 80px;
+  background: rgba(255, 255, 255, 0.8) url('canvas-pattern.png') repeat;
+  background-blend-mode: lighten;
+}
+
+#section-1 {
+  height: 1272px;
+}
+
+#section-2 {
+  height: 1714px;
+}
+
+#section-3 {
+  height: 1570px;
+}
+
+footer {
+  height: 194px;
+  background-color: #5C3919;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kodawari .item {
+  width: 300px;
+  height: 100px;
+  margin: 20px auto;
+  border: 2px solid #271502;
+  padding: 16px;
+  background-color: #fff;
+}
+
+aside.banner {
+  width: 300px;
+  height: 100px;
+  margin: 40px auto;
+  background-color: #95C32D;
+}
